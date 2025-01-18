@@ -20,8 +20,10 @@ class BasicOne{
         sub5 = sc.nextInt();
         System.out.println("Enter Subject 6 Marks: ");
         int sub6 = sc.nextInt();
+         System.out.println("Enter Subject 7 Marks: ");
+        int sub7 = sc.nextInt();
 
-        float percentage  = ((sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7) / 500.0f)*100;
+        float percentage  = ((sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7) / 700.0f)*100;
         System.out.println("Percentage : "+ percentage);
 
 
