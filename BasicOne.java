@@ -1,4 +1,4 @@
-package Basic;
+// package Basic;
 // calclute percentage of a given std in cbse borad exam 
 // his marks from 5 subject must be taken as input 
 
