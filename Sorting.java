@@ -50,9 +50,9 @@ public class Sorting {
             int current = arr[i];
             while (j >=0 && current < arr[j]) {
                 arr[j+1] = arr[j];
+                arr[j+1] = current;
                 j--;
             }
-            arr[j+1] = current;
         }
         printArray(arr);
     }
